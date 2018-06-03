@@ -39,11 +39,17 @@ blockquote{
     box-sizing:border-box;
 }
 
-aside h1{
+aside{
     background-color: #3C1D3D;
     color: #F2FFFC;
     font-size: 30px;
-    padding-top: 25px;
+    font-family: "Opens Sans Condensed",sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+aside li{
+    display: inline-block;
 }
 
 footer{
