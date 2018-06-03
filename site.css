@@ -2,6 +2,8 @@ body{
     background-color: #F2FFFC;
     font-family: "Crimson Text", Serif;
     font-size: 20px;
+    line-height: 1.5;
+
 }
 
 main h1{
@@ -10,6 +12,9 @@ main h1{
     color:#F2FFFC;
     text-align: center;
     font-family: "Opens Sans Condensed",sans-serif;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 10px solid #000;
 }
 
 h2{
@@ -21,8 +26,16 @@ p{
     text-align: justify;
 }
 
+blockquote, aside, footer {
+    padding: 20px;
+}
+
 blockquote{
     background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    margin: 0;
+    box-sizing:border-box;
 }
 
 aside {
@@ -38,3 +51,10 @@ footer{
 nav a {
     color: #F2FFFC;
 }
+
+main div{
+    width: 720px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
