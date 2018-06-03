@@ -17,6 +17,11 @@ main h1{
     border-bottom: 10px solid #000;
 }
 
+h1{
+    text-transform: uppercase;
+}
+
+
 h2{
     font-size:30px;
     font-family: "Opens Sans Condensed",sans-serif;
@@ -48,17 +53,24 @@ aside{
     text-align: center;
 }
 
-aside li{
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.icones-sociais li{
     display: inline-block;
 }
 
-footer{
-    background-color: #000;
-    color:#F2FFFC;
+nav h1{
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
 nav a {
     color: #F2FFFC;
+    text-transform: lowercase;
 }
 
 main div{
@@ -74,4 +86,38 @@ strong {
 
 em {
     font-style: italic;
+}
+
+#rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.icones-sociais .github{
+    background-image: url("github.png");
+}
+
+.icones-sociais .twitter{
+    background-image: url("twitter.png");
+}
+
+.icones-sociais .linkedin{
+    background-image: url("linkedin.png");
 }
