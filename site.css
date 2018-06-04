@@ -25,6 +25,7 @@ h1{
 h2{
     font-size:30px;
     font-family: "Opens Sans Condensed",sans-serif;
+    clear: both;
 }
 
 p{
@@ -88,12 +89,6 @@ em {
     font-style: italic;
 }
 
-#rodape-pagina {
-    background-color: #000;
-    color: #F2FFFC;
-    padding: 20px;
-}
-
 .leia-mais {
     padding: 8px;
     margin: 16px;
@@ -120,4 +115,46 @@ em {
 
 .icones-sociais .linkedin{
     background-image: url("linkedin.png");
+}
+
+.fiat{
+    float: right;
+}
+.petrobras{
+    float: left;
+}
+
+aside, img{
+    float: right;
+}
+
+aside{
+    clear: right;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+.minha-foto, .navegacao-site {
+    float: right;
+    box-sizing: border-box;
+    width: 15%;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    clear: right
+}
+
+
+.rodape-pagina {
+    background-color: #000;
+    padding: 20px;
+    color: #F2FFFC;
+    clear: both;
 }
