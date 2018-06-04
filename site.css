@@ -52,6 +52,10 @@ aside{
     font-family: "Opens Sans Condensed",sans-serif;
     padding: 20px;
     text-align: center;
+    clear: right;
+    width: 15%;
+    position: relative;
+    top: 310px;
 }
 
 article {
@@ -128,10 +132,6 @@ aside, img{
     float: right;
 }
 
-aside{
-    clear: right;
-}
-
 cite {
     font-style: italic;
     float: right;
@@ -140,21 +140,29 @@ cite {
 main {
     float: left;
     width: 85%;
+    padding-bottom: 80px;
 }
 
 .minha-foto, .navegacao-site {
     float: right;
     box-sizing: border-box;
-    width: 15%;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
     clear: right
 }
 
-
 .rodape-pagina {
     background-color: #000;
-    padding: 20px;
     color: #F2FFFC;
     clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.minha-foto{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
 }
