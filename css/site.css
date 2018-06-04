@@ -110,15 +110,15 @@ em {
 }
 
 .icones-sociais .github{
-    background-image: url("github.png");
+    background-image: url("../img/github.png");
 }
 
 .icones-sociais .twitter{
-    background-image: url("twitter.png");
+    background-image: url("../img/twitter.png");
 }
 
 .icones-sociais .linkedin{
-    background-image: url("linkedin.png");
+    background-image: url("../img/linkedin.png");
 }
 
 .fiat{
